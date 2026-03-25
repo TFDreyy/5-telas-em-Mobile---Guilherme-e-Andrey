@@ -1,3 +1,7 @@
-Atvidade de Mobile - React Native
+# 5 Telas Mobile - React Native
+
+ETEC de Guarulhos
+
 Professor: Jefferson Riper da Silva
-Feito por: Andrey e Guilherme Oliveira Gomes
+
+Feito com: Guilherme Oliveira Gomes - [Guilherme Oliveira Gomes](https://github.com/GuilhermeO-Gomes)
