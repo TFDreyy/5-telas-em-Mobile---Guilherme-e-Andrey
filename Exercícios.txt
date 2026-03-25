@@ -1,0 +1,8 @@
+1. O que faz o NavigationContainer?
+Então, de forma simples, o NavigationConainer possibilita a navegação entre páginas, definindo as páginas que irão ser navegadas, quais seus nomes, etc. Dentro do NavigationContainer, utilizamos o stack.screen e o stack.Navigator, o stack.screen cria as telas que serão navegadas, definindo suas rotas e seus nomes, como por exemplo, linkar um componente a um nome, tipo "HomeScreen" para "Home". Já o Stack.Navigator agrupa todas as stack.screen e possibilita a criação de histórico, isto é, aquele botão quer fica no nav da página e volta para a tela anterior
+
+2. Qual a função do createNativeStackNavigator?
+O createNativeStackNavigator serve para criar stack.screen e stack.navigator, o que cria as telas navegáveis e o que pilha as telas e possibilita o histórico
+
+3. Como navegar entre telas?
+Para navegar entre as telas, primeiro precisa criar toda a estrutura básica de NavigationContainer e stack.screen e stack.Navigator, após isso, em cada tela navegável, crie um Button ou um TouchableOpacity que onPress, utilize navigation.navigate(nome do componente), OBS: para isso funcionar, precisa declarar uma const chamada "navigation = UseNavigation()" e importar o UseNavigation
